@@ -68,7 +68,7 @@ const ReviewCarousel = () => {
           breakpoints={{
             640: {
               slidesPerView: 1,
-              spaceBetween: 6, // Adjust space between slides
+              spaceBetween: 6, 
             },
             768: {
               slidesPerView: 1,
@@ -79,7 +79,7 @@ const ReviewCarousel = () => {
               spaceBetween: 10, // Adjust space between slides
             },
             1440: {
-              slidesPerView: 5, // Ensure 5 slides are visible
+              slidesPerView: 5, //
               spaceBetween: 10, // Adjust space between slides
             },
           }}

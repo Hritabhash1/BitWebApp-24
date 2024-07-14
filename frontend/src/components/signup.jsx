@@ -112,17 +112,17 @@ export default function Signup() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-stretch">
-      <ToastContainer />
-      <div className="relative w-full md:w-1/2 hidden md:block">
-        <img
-          src="/static/images/bitphoto.JPG"  
-          className="w-full h-full object-cover"
-          alt="bit-mesra"
-        />
-      </div>
-      <div className="w-full md:w-1/2 bg-white flex flex-col p-6 md:p-20 justify-between">
-        <h3 className="text-xl text-black font-semibold mb-9">BIT WEB APP</h3>
+    <div className="flex flex-col md:flex-row items-stretch min-h-screen h-screen">
+  <ToastContainer />
+  <div className="relative w-full md:w-1/2 hidden md:block h-full">
+    <img
+      src="/static/images/bitphoto.JPG"
+      className="w-full h-full object-cover"
+      alt="bit-mesra"
+    />
+  </div>
+  <div className="w-full md:w-1/2 bg-white flex flex-col p-6 md:p-20 justify-between overflow-auto">
+        {/* <h3 className="text-xl text-black font-semibold mb-9">BITACADEMIA</h3> */}
 
         <div className="w-full flex flex-col max-w-[500px]">
           <div className="flex flex-col w-full mb-5">

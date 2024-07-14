@@ -71,7 +71,7 @@ export default function Login() {
         />
       </div>
       <div className="w-full md:w-1/2 bg-white flex flex-col p-6 md:p-20 justify-between">
-        <h3 className="text-xl text-black font-semibold">BIT WEB APP</h3>
+        <h3 className="text-xl text-black font-semibold">BITACADEMIA</h3>
 
         <div className="w-full flex flex-col max-w-[500px]">
           <div className="flex flex-col w-full mb-5">
