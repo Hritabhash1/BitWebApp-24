@@ -10,31 +10,31 @@ const ReviewCarousel = () => {
   const data = [
     {
       name: "Garvit",
-      specialties: "BitWebApp has revolutionized how I manage my academic records and projects. The ease of uploading and accessing my higher examination details and internships is unparalleled. It's a must-have for every student aiming for excellence!",
+      specialties: "BITACADEMIA  has revolutionized how I manage my academic records and projects. The ease of uploading and accessing my higher examination details and internships is unparalleled. It's a must-have for every student aiming for excellence!",
     },
     {
       name: "Ankit",
-      specialties: "BitWebApp's ability to store and organize all my academic and internship records in one place is fantastic. The review functionality is a great addition, helping me share my experiences with peers. An excellent tool for students!",
+      specialties: "BITACADEMIA WebApp's ability to store and organize all my academic and internship records in one place is fantastic. The review functionality is a great addition, helping me share my experiences with peers. An excellent tool for students!",
     },
     {
       name: "Kushagra",
-      specialties: "BitWebApp is an invaluable tool for any student. It keeps all my academic records, project details, and internship information organized and easily accessible. I highly recommend it to all my peers!",
+      specialties: "BITACADEMIA is an invaluable tool for any student. It keeps all my academic records, project details, and internship information organized and easily accessible. I highly recommend it to all my peers!",
     },
     {
       name: "Sumit Kun",
-      specialties: "BitWebApp has been a game-changer for me. Managing my academic and higher examination details has never been this simple. The platform's user-friendly design makes it an essential tool for every student.",
+      specialties: "BITACADEMIA has been a game-changer for me. Managing my academic and higher examination details has never been this simple. The platform's user-friendly design makes it an essential tool for every student.",
     },
     {
       name: "Hritabhash",
-      specialties: "I can't imagine my student life without BitWebApp. The convenience of having all my academic records, exam details, and internship information in one place is incredible. The review feature is great for sharing feedback with the admin and peers.",
+      specialties: "The BITACADEMIA has become a critical tool in my academic life. Its integration of academic records, exam details, and internship information into one platform offers significant convenience. Additionally, the review feature facilitates efficient feedback sharing with administrators and peers.",
     },
     {
       name: "Parth",
-      specialties: "BitWebApp provides a holistic solution for managing student data. Uploading my academic records and tracking my placements has never been easier. The admin's ability to access all data ensures efficient management. A brilliant platform for students!",
+      specialties: "BITACADEMIA provides a holistic solution for managing student data. Uploading my academic records and tracking my placements has never been easier. The admin's ability to access all data ensures efficient management. A brilliant platform for students!",
     },
     {
       name: "Akshat",
-      specialties: "The seamless interface of BitWebApp makes it incredibly easy to track my placements and exam details. It's a comprehensive platform that has significantly improved my academic journey. Highly recommended!"
+      specialties: "The seamless interface of BITACADEMIA makes it incredibly easy to track my placements and exam details. It's a comprehensive platform that has significantly improved my academic journey. Highly recommended!"
     }
   ];
 
