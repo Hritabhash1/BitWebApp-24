@@ -40,12 +40,14 @@ import { HashLoader, SyncLoader } from "react-spinners";
 import AdminAcademicRecords from "./components/AdminAcademicRecords";
 import StudentAwardTable from "./components/StudentAwardTable";
 import Review from "./components/Review";
+import AddBacklog from "./components/AddBacklog"
 
 export default function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/public-user" element={<Dashboard/>}/>
         <Route path="/log" element={<Login />} />
         <Route
           path="/db"
@@ -79,6 +81,7 @@ export default function App() {
           <Route path="internship-form-table" element={<InternTable />} />
           <Route path="internship-table" element={<Internshiptable />} />
           <Route path="student-award-table" element={<StudentAwardTable />} />
+          <Route path="backlogs" element={<AddBacklog/>} />
           <Route path="review" element={<Review />} />
         </Route>
         <Route path="verify-users" element={<VerifyUsers />} />
