@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bitwebapp-backend
+    env: python
+    rootDir: data_analysis  # Deploy only the `data_analysis` folder
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PORT
+        value: 8000
